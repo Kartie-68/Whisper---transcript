@@ -1,0 +1,13 @@
+Steps to Use/Install Whisper:
+➡️ Open Google Drive
+➡️ Install Google Colaboratory  
+➡️ Change Runtime Type to GPU
+➡️ Paste this code to Install Whisper:
+!pip install git+https://github.com/openai/whisper.git
+!sudo apt update && sudo apt install ffmpeg
+
+➡️ Upload Audio/Video File
+➡️ Run Whisper by pasting this code:
+!whisper "YOUR FILE NAME" --model medium
+
+➡️ Download .txt or .srt file
